@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8000/home/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Alice in wonderland",
+    "author": "Lewis Carroll",
+    "id": 1,
+    "ratings": 1
+}
